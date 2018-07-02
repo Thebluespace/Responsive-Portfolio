@@ -1,0 +1,219 @@
+img{
+    display: inline;
+    padding-right: 1%;
+}
+.nameplate {
+    font-family: "Georgia", "Times","Times New Roman", "serif";
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    height: 55px;
+    width: 320px;
+    margin: 20px 240px 0px 240px;
+    padding: 15px 0px 0px 0px;
+    background-color: #4aaaa5;
+}
+
+.topnav {
+    float: right;
+    font-family: "Georgia", "Times","Times New Roman", "serif";
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    width: 450px;
+    margin: -45px 400px 0px 400px;
+    padding: 0px 1px 0px 1px;
+    border: none;
+    background-color: white;
+}
+
+.aboutbutton {
+    font-family: "Georgia", "Times","Times New Roman", "serif";
+    font-size: 18px;
+    float: none;
+    height: 30px;
+    width: 60px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 5px 0px 0px;
+    border: none;
+    border-right: 1px solid gray;
+    background-color: white;
+}
+
+.portfoliobutton {
+    font-family: "Georgia", "Times","Times New Roman", "serif";
+    font-size: 18px;
+    float: none;
+    height: 30px;
+    width: 85px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 15px 0px 5px;
+    border: none;
+    border-right: 1px solid gray;
+    background-color: white;
+}
+ 
+.contactbutton {
+    font-family: "Georgia", "Times","Times New Roman", "serif";
+    font-size: 18px;
+    float: none;
+    height: 30px;
+    width: 60px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 5px;
+    border: none;
+    background-color: white;
+}
+
+.mainbox {
+    background-color: #ffffff;
+    width: 1190px;
+    height: 440px;
+    margin: 50px 30px 20px 50px;
+    color: #777777;
+    padding: 25px 10px 30px 20px;
+}
+
+.contactbox {
+    background-color: #ffffff;
+    width: 1190px;
+    height: 640px;
+    margin: 50px 30px 20px 50px;
+    color: #777777;
+    padding: 25px 10px 30px 20px;
+}
+
+.portfoliobox {
+    background-color: #ffffff;
+    width: 1190px;
+    height: 640px;
+    margin: 50px 30px 20px 50px;
+    color: #777777;
+    padding: 25px 10px 30px 20px;
+}
+
+.bgi {
+    background-image: url("../images/bodybackground.png");
+}
+.bg {
+    height: 860px;
+    width: 960px;
+    margin: 0px 190px 0px 190px;
+}
+
+.about {
+    font-family: "Georgia", "Times","Times New Roman", "serif";;
+    color: #4aaaa5;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.maincontent {
+    padding-top: 30px;
+    border-top: 3px solid grey;
+    border-radius: 1px;
+}
+.maincontent2 {
+    padding-top: 15px;
+    padding-left: 210px;
+}
+
+.ulist {
+    margin-left: 300px;
+    list-style-type: circle;
+}
+
+.pitemsbox {
+    padding: 30px 100px 0px 100px;
+    border-top: 3px solid grey;
+    border-radius: 1px;
+}
+
+.footer{
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    padding: 15px 0px 15px 0px;
+    border-top: 10px solid #4aaaa5;
+    background-color: #666666;
+}
+
+.copyright {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+}
+
+.contactform {
+    padding: 30px 30px 30px 30px;
+    border-top: 3px solid grey;
+    border-radius: 1px;
+}
+
+button:focus, input:focus{
+    color: blue;;
+}
+
+button:hover, input:hover {
+}
+button:active, input:active {
+    color: red;
+}
+
+.pbutton1 {
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin: 25px 60px 25px 60px;
+    background-size: contain;
+    background: transparent;
+    background-image: url("../images/hangman.jpeg");
+    background-repeat: no-repeat;
+}
+
+.pbutton2 {
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin: 25px 60px 25px 60px;
+    background-image: url("../images/rpg.jpeg");
+    background-size: 100%;
+}
+.pbutton3 {
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin: 25px 60px 25px 60px;
+    background-image: url("../images/trivia.jpeg");
+    background-size: contain;
+}
+.pbutton4 {
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin: 25px 65px 25px 220px;
+    background-image: url("../images/rutgers.jpg");
+    background-size: contain;
+}
+.pbutton5 {
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin: 25px 160px 25px 65px;
+    background-image: url("../images/rps.jpg");
+    background-size: contain;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+}
