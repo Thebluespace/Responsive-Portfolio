@@ -16,12 +16,8 @@ img{
 
 .topnav {
     float: right;
-    font-family: "Georgia", "Times","Times New Roman", "serif";
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    height: 40px;
-    width: 450px;
+    height: 30px;
+    width: 250px;
     margin: -45px 400px 0px 400px;
     padding: 0px 1px 0px 1px;
     border: none;
@@ -158,8 +154,6 @@ button:focus, input:focus{
     color: blue;;
 }
 
-button:hover, input:hover {
-}
 button:active, input:active {
     color: red;
 }
@@ -208,12 +202,89 @@ button:active, input:active {
     background-size: contain;
 }
 
-.overlay1 {
-    position: absolute;
-    top: 200px;
-    left: 0;
-    width: 100%;
-    margin: 0 auto;
-    width: 300px;
-    height: 50px;
+@media screen and (max-width: 1500px) {
+    .mainbox{
+        width: 860px;
+        height: 440px;
+    }
+    .portfoliobox {
+        width: 860px;
+        height: 1000px;
+    }
+    .contactbox {
+        width: 980px;
+        height: 640px;
+    }
+    .bgi {
+        height: 1100px;
+    }
+    .pbutton1, .pbutton2, .pbutton3, .pbutton4, .pbutton5  {
+        margin: 25px 60px 25px 60px;
+    }
+    .contactinput {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .topnav {
+        float: none;
+        margin: 20px 280px 0px 280px;
+    }
+    .headersize {
+        widows: 400px;
+    }
+    .mainbox{
+        width: 860px;
+        height: 440px;
+        margin: 50px -30px 20px -10px;
+    }
+    .portfoliobox {
+        width: 500px;
+        height: 1600px;
+        margin: 50px -80px 20px -60px;
+    }
+    .contactbox {
+        width: 740px;
+        height: 640px;
+        margin: 50px -30px -30px 50px;
+    }
+    .bgi {
+        height: 1700px;
+    }
+    .pbutton1, .pbutton2, .pbutton3, .pbutton4, .pbutton5  {
+        margin: 25px 60px 25px 60px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .mainbox {
+        width: 540px;
+        height: 440px;
+        margin: 50px -80px 20px -60px;
+    }
+
+    .portfoliobox {
+        width: 500px;
+        height: 1600px;
+        margin: 50px -80px 20px -60px;
+    }
+    .contactbox {
+        width: 540px;
+        height: 640px;
+        margin: 50px -80px -30px -80px;
+    }
+
+    .bgi {
+        height: 1700px;
+    }
+
+    .bg {
+        margin: 0px 190px 0px 190px;
+    }
+
+    .pbutton1, .pbutton2, .pbutton3, .pbutton4, .pbutton5  {
+        margin: 25px 60px 25px 60px;
+    }
+
 }
